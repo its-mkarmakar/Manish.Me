@@ -6,10 +6,10 @@ Welcome to my portfolio website! This repository contains the code for my person
 
 This portfolio website showcases my skills, projects, and provides a way for others to learn more about me. It includes the following sections:
 
-- **Home**: An introduction to who I am and my areas of expertise.
-- **Services**: .
+- **Home**: All Over Portfolio.
+- **Services**: I offer a range of services to help you achieve your goals.
 - **My Work**: An overview of the skills I possess.
-- **About**: 
+- **About**: An introduction to who I am and my areas of expertise.
 - **Hire Me**: How to reach out to me.
 
 ## Live Website
