@@ -38,9 +38,11 @@ I welcome contributions to improve this portfolio. If you find a bug or have a s
 
 Feel free to get in touch with me:
 
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourusername)
-- Twitter: [@YourTwitterHandle](https://twitter.com/yourtwitterhandle)
+- : your.email@example.com
+- Facebook: [Your Facebook Profile](https://www.facebook.com/its.manishkarmakar)
+- Instagram: [Your Instagram Profile](https://instagram.com/its_mkarmakar)
+- Twitter: [Your Twitter Profile](https://twitter.com/Its_MKarmakar)
+- Linkdin: [Your Linkdin Profile](https://www.linkedin.com/in/manishkarmakar)
 
 Thank you for visiting my portfolio!
 
