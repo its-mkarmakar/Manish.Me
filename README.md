@@ -38,11 +38,15 @@ I welcome contributions to improve this portfolio. If you find a bug or have a s
 
 Feel free to get in touch with me:
 
-- : your.email@example.com
-- Facebook: [here](https://www.facebook.com/its.manishkarmakar)
-- Instagram: [here](https://instagram.com/its_mkarmakar)
-- Twitter: [here](https://twitter.com/Its_MKarmakar)
-- Linkdin: [here](https://www.linkedin.com/in/manishkarmakar)
+[Email](mrinalkarmakar565@gmail.com)
+
+[Facebook](https://www.facebook.com/its.manishkarmakar)
+
+[Instagram](https://instagram.com/its_mkarmakar)
+
+[Twitter](https://twitter.com/Its_MKarmakar)
+
+[Linkdin](https://www.linkedin.com/in/manishkarmakar)
 
 Thank you for visiting my portfolio!
 
