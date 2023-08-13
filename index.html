@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manish.Me</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/e0a078d093.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Assets/logo.png" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#my-work">My Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Hire Me</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Front-end Developer</p>
+        <h1>Hello, I'm <span>Manish</span><br />Karmakar</h1>
+      </div>
+      <a href="#" download class="btn btn2">Download CV</a>
+    </div>
+  </div>
+  <!-- -----------about---------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Assets/user.jpg" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">Who I'm !</h1>
+          <p>
+            Highly motivated B.Tech Computer Science student at JIS University. specializing in
+            front-end web development. Skilled in HTML5, CSS3, JavaScript & React JS. Eager to
+            learn and currently improving back-end development skills with PHP, Java, & Node.js.
+            Passionate about using technology to solve problems and create user-friendly web
+            applications. Seeking opportunities to grow and make a positive impact in the world.
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('programming-skills')">
+              Programming Skills
+            </p>
+            <p class="tab-links" onclick="opentab('other-skills')">
+              Other Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">
+              Experience
+            </p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="programming-skills">
+            <ul>
+              <li><span>HTML5, CSS3</span></li>
+              <div class="progress-bar">
+                <div class="progress" style="width: 100%;"></div>
+              </div>
+              <li><span>JavaScript, JQuery</span></li>
+              <div class="progress-bar">
+                <div class="progress" style="width: 100%;"></div>
+              </div>
+              <li><span>Frameworks (React)</span></li>
+              <div class="progress-bar">
+                <div class="progress" style="width: 80%;"></div>
+              </div>
+              <li><span>UI Frameworks (BootStrap)</span></li>
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+              </div>
+              <li><span>Wordpress</span></li>
+              <div class="progress-bar">
+                <div class="progress" style="width: 100%;"></div>
+              </div>
+            </ul>
+          </div>
+          <div class="tab-contents" id="other-skills">
+            <ul>
+              <li><span>Adobe</span><br />(Photoshop, Premiere Pro)</li>
+              <li><span>Microsoft Office</span><br />(Word, Excel, PowerPoint)</li>
+              <li><span>Email Communication</span><br />(Gmail, Outlook)</li>
+              <li><span>Cloud Storage</span><br />(Google Drive, Dropbox)</li>
+              <li><span>Video Conferencing</span><br />(Zoom, Google Meet, Microsoft Teams)</li>
+            </ul>
+
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>July 2023 - Aug 2023</span><br />Web Developer Intern, Bharat Intern<br />(Remote)</li>
+              <li><span>Apr 2023 - May 2023</span><br />Full-Stack Developer Intern, NullClass<br />(Remote)</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2022 - Present</span><br />B.Tech in Computer Science Engineering (CSE), JIS University
+                <br />Kolkata
+              </li>
+              <li><span>2015 - 2022</span><br />10 & 10+2 (PCM+Biology), Bhastara Jajneswar High
+                School<br />Bhastara,Hooghly</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------services---------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-laptop"></i>
+          <h2>Developer</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis voluptatem odit eaque natus at
+            corrupti culpa possimus laboriosam.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-pen"></i>
+          <h2>Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis voluptatem odit eaque natus at
+            corrupti culpa possimus laboriosam.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI/UX</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis voluptatem odit eaque natus at
+            corrupti culpa possimus laboriosam.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------portfolio------------ -->
+  <div id="my-work">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="Assets/work-1.jpg" />
+          <div class="layer">
+            <h3>Lorem ipsum dolor sit</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet obcaecati aliquam sit quaerat optio
+              quibusdam in suscipit nemo eius, a deleniti dolorum ab, officia blanditiis quidem illo voluptates culpa
+              accusamus?
+            </p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Assets/work-2.jpg" />
+          <div class="layer">
+            <h3>Lorem ipsum dolor sit</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet obcaecati aliquam sit quaerat optio
+              quibusdam in suscipit nemo eius, a deleniti dolorum ab, officia blanditiis quidem illo voluptates culpa
+              accusamus?
+            </p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="Assets/work-3.jpg" />
+          <div class="layer">
+            <h3>Lorem ipsum dolor sit</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet obcaecati aliquam sit quaerat optio
+              quibusdam in suscipit nemo eius, a deleniti dolorum ab, officia blanditiis quidem illo voluptates culpa
+              accusamus?
+            </p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- ----------contact------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Hire Me</h1>
+          <p><i class="fa-solid fa-envelope"></i> example@xyz.com</p>
+          <p><i class="fa-solid fa-phone-volume"></i> +91 0000000000</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/its.manishkarmakar"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/its_mkarmakar"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/Its_MKarmakar"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.linkedin.com/in/manishkarmakar"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/its-mkarmakar"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      </button>
+      <p>
+        Copyright © 2023 by
+        <a href="https://www.linkedin.com/in/manishkarmakar">Manish</a>
+      </p>
+    </div>
+    <button id="back-to-top" class="circle-button">
+      <i class="fa-solid fa-arrow-up-from-bracket"></i>
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
